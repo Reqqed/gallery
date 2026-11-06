@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Вход — Малая галерея</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lab3.css">
+</head>
+<body>
+    <nav aria-label="Основная навигация">
+      <a class="brand" href="index.html">МГ <span>Малая галерея</span></a>
+      <div>
+        <a href="index.html">Главная</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="artists.html">Художники</a>
+        <a href="details.html">Истории картин</a>
+        <a href="workshop.html">Мастерская</a>
+        <a href="guide.html">Как смотреть</a>
+        <a href="about.html">О проекте</a>
+        <a href="login.html">Вход</a>
+        <a href="register.html">Регистрация</a>
+        <a href="collection.html">Моя коллекция</a>
+      </div>
+    </nav>
+
+<header><h1>Вход</h1></header>
+<main class="lab-content"><p>Учебная имитация входа. Зарегистрируйте email в этом браузере, затем введите его и любой пароль указанного формата. Это не проверка настоящего пароля.</p><form id="loginForm" novalidate><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error"><small class="error" id="email-error" aria-live="polite"></small></div><div class="field"><label for="password">Пароль</label><input id="password" name="password" type="password" autocomplete="off" aria-describedby="password-error"><small class="error" id="password-error" aria-live="polite"></small></div><button type="submit">Войти</button></form><p id="formStatus" role="status"></p><a href="register.html">Создать профиль →</a></main>
+<footer>Малая галерея · Учебный проект</footer>
+<script src="js/auth.js" defer></script>
+<script src="js/magnifier.js" defer></script>
+</body>
+</html>
