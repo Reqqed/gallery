@@ -1,0 +1,9 @@
+/* Lab 3: styles scoped to the new pages. */
+.lab-content {max-width:1000px;margin:0 auto;padding:24px;}
+.lab-content form {max-width:620px;padding:24px;border:1px solid #c9bdab;background:#fffaf0;border-radius:8px;}
+.field {margin-bottom:16px;} .field label {display:block;margin-bottom:5px;}
+.lab-content input:not([type=checkbox]),.lab-content select {width:100%;padding:11px;border:1px solid #817765;border-radius:4px;background:white;color:#242018;font:inherit;box-sizing:border-box;}
+.lab-content button {padding:10px 16px;background:#514334;color:white;border:0;border-radius:4px;font:inherit;cursor:pointer;}
+.lab-content button:focus-visible,.lab-content input:focus-visible,.lab-content select:focus-visible {outline:3px solid #967135;outline-offset:3px;}
+.error {display:block;color:#9d2323;min-height:1.2em;} [aria-invalid=true] {border-color:#9d2323!important;}
+nav>div {flex-wrap:wrap;} [hidden] {display:none!important;}
